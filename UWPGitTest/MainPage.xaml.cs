@@ -42,5 +42,9 @@ namespace UWPGitTest
         private void Button_Click_3( object sender, RoutedEventArgs e ) {
             Frame.Navigate( typeof( FinalPage ) );
         }
+
+        private void RichTextBlock_SelectionChanged( object sender, RoutedEventArgs e ) {
+
+        }
     }
 }
