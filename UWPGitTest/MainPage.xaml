@@ -37,5 +37,8 @@
         <FlipView HorizontalAlignment="Left" Margin="34,382,0,0" VerticalAlignment="Top" Width="185"/>
         <RepeatButton Content="RepeatButton" HorizontalAlignment="Left" Margin="360,382,0,0" VerticalAlignment="Top" Width="295"/>
         <Button Content="Navigate to third page" HorizontalAlignment="Center" Margin="0,598,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <CalendarDatePicker HorizontalAlignment="Left" Margin="1254,262,0,0" VerticalAlignment="Top"/>
+        <InkCanvas HorizontalAlignment="Left" Height="100" Margin="705,770,0,0" VerticalAlignment="Top" Width="351"/>
+        <ProgressBar HorizontalAlignment="Left" Height="25" Margin="490,185,0,0" VerticalAlignment="Top" Width="165" Value="50"/>
     </Grid>
 </Page>
