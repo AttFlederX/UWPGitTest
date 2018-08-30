@@ -40,6 +40,7 @@
         <CalendarDatePicker HorizontalAlignment="Left" Margin="1254,262,0,0" VerticalAlignment="Top"/>
         <InkCanvas HorizontalAlignment="Left" Height="100" Margin="705,770,0,0" VerticalAlignment="Top" Width="351"/>
         <ProgressBar HorizontalAlignment="Left" Height="25" Margin="490,185,0,0" VerticalAlignment="Top" Width="165" Value="50"/>
+        <Button Content="Navigate to final page" HorizontalAlignment="Left" Margin="874,457,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
         <Canvas HorizontalAlignment="Left" Height="100" Margin="127,115,0,0" VerticalAlignment="Top" Width="188" RequestedTheme="Dark"/>
         <MediaElement HorizontalAlignment="Left" Height="100" Margin="865,360,0,0" VerticalAlignment="Top" Width="215"/>
         <ComboBox HorizontalAlignment="Left" Margin="490,540,0,0" VerticalAlignment="Top" Width="165"/>
