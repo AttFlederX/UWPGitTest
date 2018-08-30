@@ -38,5 +38,9 @@ namespace UWPGitTest
         private void Button_Click_2( object sender, RoutedEventArgs e ) {
             Frame.Navigate( typeof( ThirdPage ) );
         }
+
+        private void Button_Click_3( object sender, RoutedEventArgs e ) {
+            Frame.Navigate( typeof( FinalPage ) );
+        }
     }
 }
