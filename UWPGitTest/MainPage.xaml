@@ -9,9 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <CommandBar>
+            <CommandBar.Content>
+                <StackPanel>
+                    <TextBlock Text="app bar mzfka" />
+                </StackPanel>
+            </CommandBar.Content>
+            <AppBarButton Icon="Accept" Label="AppBarButton"/>
+            <AppBarButton Icon="Cancel" Label="AppBarButton"/>
+        </CommandBar>
         <ComboBox HorizontalAlignment="Left" Margin="179,283,0,0" VerticalAlignment="Top" Width="310"/>
         <TextBlock HorizontalAlignment="Left" Margin="82,289,0,0" Text="ComboBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button Content="Navigate" HorizontalAlignment="Center" Margin="0,477,0,0" VerticalAlignment="Top"/>
-
     </Grid>
 </Page>
