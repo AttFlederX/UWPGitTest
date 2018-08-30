@@ -9,6 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <CommandBar>
+            <CommandBar.Content>
+                <StackPanel>
+                    <TextBlock Text="app bar mzfka" />
+                </StackPanel>
+            </CommandBar.Content>
+            <AppBarButton Icon="Accept" Label="AppBarButton"/>
+            <AppBarButton Icon="Cancel" Label="AppBarButton"/>
+        </CommandBar>
 
     </Grid>
 </Page>
