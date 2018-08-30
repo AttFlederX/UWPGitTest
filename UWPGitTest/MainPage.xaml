@@ -31,5 +31,6 @@
                 <Run Text="RichTextBlock"/>
             </Paragraph>
         </RichTextBlock>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="960,225,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
