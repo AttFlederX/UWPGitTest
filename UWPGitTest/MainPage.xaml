@@ -34,5 +34,7 @@
         <Button Content="Navigate to greets" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"/>
         <Button Content="Navigate to another page" HorizontalAlignment="Center" Margin="0,561,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
         <CalendarView HorizontalAlignment="Left" Margin="1150,360,0,0" VerticalAlignment="Top" Height="365" Width="334"/>
+        <FlipView HorizontalAlignment="Left" Margin="34,382,0,0" VerticalAlignment="Top" Width="185"/>
+        <RepeatButton Content="RepeatButton" HorizontalAlignment="Left" Margin="360,382,0,0" VerticalAlignment="Top" Width="295"/>
     </Grid>
 </Page>
