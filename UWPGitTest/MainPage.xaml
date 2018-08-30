@@ -44,6 +44,11 @@
         <Canvas HorizontalAlignment="Left" Height="100" Margin="127,115,0,0" VerticalAlignment="Top" Width="188" RequestedTheme="Dark"/>
         <MediaElement HorizontalAlignment="Left" Height="100" Margin="865,360,0,0" VerticalAlignment="Top" Width="215"/>
         <ComboBox HorizontalAlignment="Left" Margin="490,540,0,0" VerticalAlignment="Top" Width="165"/>
+        <Slider HorizontalAlignment="Left" Margin="889,340,0,0" VerticalAlignment="Top" Width="311" RenderTransformOrigin="0.5,0.5">
+            <Slider.RenderTransform>
+                <CompositeTransform Rotation="-13.174"/>
+            </Slider.RenderTransform>
+        </Slider>
         <RichTextBlock HorizontalAlignment="Left" Height="100" Margin="815,300,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.5,0.5" SelectionChanged="RichTextBlock_SelectionChanged" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <RichTextBlock.RenderTransform>
                 <CompositeTransform Rotation="-35.764"/>
