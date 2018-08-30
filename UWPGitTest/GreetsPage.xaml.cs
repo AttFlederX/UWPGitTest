@@ -23,5 +23,9 @@ namespace UWPGitTest {
         public GreetsPage() {
             this.InitializeComponent();
         }
+
+        private void Button_Click( object sender, RoutedEventArgs e ) {
+            Frame.GoBack();
+        }
     }
 }
